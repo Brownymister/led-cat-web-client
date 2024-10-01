@@ -1,0 +1,8 @@
+[package]
+name = "led-cat-web-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+leptos = { version = "0.6.15", features = ["csr", "nightly"] }
+reqwest = "0.12.8"
